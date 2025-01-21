@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div id='header'>
-      <h1>Pytanie z quizu</h1>
-      <p>Czy React to biblioteka do budowy interfejsów użytkownika?</p>
-      <button onClick={() => handleAnswer('tak')}>Tak</button>
+      <h1 id='dwa'>Pytanie z quizu</h1>
+      <p id='jeden'>Czy React to biblioteka do budowy interfejsów użytkownika?</p>
+      <button onClick={() => handleAnswer('tak')} id='przycisk1'>Tak</button>
       <button onClick={() => handleAnswer('nie')} id='przycisk'>
         Nie
       </button>

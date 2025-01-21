@@ -1,10 +1,29 @@
+*{
+    text-align: center;
+    background-color: black;
+    text-decoration-color: aliceblue;
+}
+
 header{
 text-align: center;
+text-decoration-color: aliceblue;
 margin-top: 50px;
 } 
 #pytanie{
     margin-top: 20px;
+    color: aliceblue;
+
 }
 #przycisk{
     margin-left: 10px;
+    color: white;
+}
+#przycisk1{
+    color: white;
+}
+#jeden{
+color: white;
+}
+#dwa{
+color: white;
 }
